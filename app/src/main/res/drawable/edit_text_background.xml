@@ -1,0 +1,16 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Establece el color del fondo del componente -->
+    <solid android:color="#FFFFFF" /> <!-- Puedes cambiar el color aquí -->
+
+    <!-- Define los bordes del fondo del componente -->
+    <stroke
+        android:width="1dp"
+        android:color="#CCCCCC" /> <!-- Puedes cambiar el ancho y el color del borde aquí -->
+
+    <!-- Define las esquinas redondeadas del fondo del componente -->
+    <corners
+        android:radius="8dp" /> <!-- Puedes ajustar el radio de las esquinas aquí -->
+
+</shape>

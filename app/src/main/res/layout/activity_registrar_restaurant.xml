@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNombreRestaurante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Restaurante"
+        android:inputType="text" />
+
+    <Spinner
+        android:id="@+id/spinnerTipoVia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo de Vía"
+        android:entries="@array/tipo_via_options" />
+
+    <EditText
+        android:id="@+id/editTextNombreCalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de la Calle"
+        android:inputType="text" />
+
+
+
+    <EditText
+        android:id="@+id/editTextNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextCodigoPostal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Código Postal"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <CheckBox
+        android:id="@+id/checkBoxSushi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Sushi" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza" />
+
+        <CheckBox
+            android:id="@+id/checkBoxAsia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asiática" />
+
+        <CheckBox
+            android:id="@+id/checkBoxHamburguesa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hamburgesería" />
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/checkBoxIndia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="India" />
+
+        <CheckBox
+            android:id="@+id/checkBoxHelado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Heladeria" />
+
+        <CheckBox
+            android:id="@+id/checkBoxMex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mexicana" />
+
+        <CheckBox
+            android:id="@+id/checkBoxTacos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tacos" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/checkBoxPoke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Poke" />
+
+
+        <CheckBox
+            android:id="@+id/checkBoxDesayuno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desayuno" />
+
+        <CheckBox
+            android:id="@+id/checkBoxItalia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Italiano" />
+
+        <CheckBox
+            android:id="@+id/checkBoxMariscos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marisco" />
+
+
+
+
+
+    </LinearLayout>
+
+    <!-- Agrega más CheckBox para las otras opciones -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        >
+
+        <Spinner
+            android:id="@+id/spinnerHoras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:entries="@array/horas_array"
+            android:prompt="@string/horas_prompt" />
+
+        <Spinner
+            android:id="@+id/spinnerMinutos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:entries="@array/minutos_array"
+            android:prompt="@string/minutos_prompt" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/buttonRegistrarRestaurante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar Restaurante"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

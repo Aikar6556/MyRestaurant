@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipo_via_options">
+        <item>Seleccione una opción</item>
+        <item>Avenida</item>
+        <item>Calle</item>
+        <item>Carretera</item>
+        <item>Plaza</item>
+        <!-- Agrega más opciones según sea necesario -->
+    </string-array>
+
+    <string-array name="horas_array">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <!-- Agrega todas las horas necesarias -->
+        <item>23</item>
+    </string-array>
+
+    <string-array name="minutos_array">
+        <item>00</item>
+        <item>05</item>
+        <item>10</item>
+        <!-- Agrega todos los minutos necesarios -->
+        <item>55</item>
+    </string-array>
+
+</resources>
+
